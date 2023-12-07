@@ -14,7 +14,7 @@ public class DoctorController {
     private DoctorService doctorService;
 
 
-    @PostMapping(path = "/add/doctor/")
+    @PostMapping(path = "/add")
     public @ResponseBody Doctor add(@RequestBody Doctor doctor){
         System.out.println(doctor.toString());
         doctorService.save(doctor);
