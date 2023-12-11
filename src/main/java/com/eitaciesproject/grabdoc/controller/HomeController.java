@@ -10,6 +10,6 @@ public class HomeController {
 
     @GetMapping(path = "/hello")
     public String hello(){
-        return "<h1>Hello World!!! Checking git remote url change.</h1>";
+        return "<h1>Hello World!!!";
     }
 }
