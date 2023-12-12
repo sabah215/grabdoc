@@ -12,7 +12,7 @@ public class DoctorService {
 
 //    @Autowired
 //    private DoctorRepository doctorRepository;
-
+    @Autowired
     private final DoctorRepository doctorRepository;
 
     @Autowired
